@@ -1,0 +1,8 @@
+name = "portal-api"
+main = "src/index.ts"
+compatibility_date = "2023-05-03"
+
+[[ d1_databases ]]
+binding = "DB" # i.e. available in your Worker on env.DB
+database_name = "portal"
+database_id = "c74aae53-2e14-445c-bfe5-8065d0dedfe3"
